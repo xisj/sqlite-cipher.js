@@ -1,3 +1,27 @@
+## 仅改了引用方式， 使这个库能连接多个sqlite数据库
+```
+将sqlite.js原有的
+module.exports = new sqlite();
+
+改为
+module.exports = sqlite();
+```
+
+###  相对原版的区别是， 使用前需要new 一个对象
+```js
+var sqlite = require('sqlite-cipher'); //requiring
+var sq_1 = new sqlite()
+var sq_2 = new sqlite()
+//balabalabala
+```
+
+## 引用方式
+```shell
+npm install github:fuwz/sqlite-cipher
+```
+
+
+
 <img src="https://github.com/JayrAlencar/sqlite-cipher.js/blob/master/images/logo.png?raw=true"/>
 </br>
 [![NPM](https://nodei.co/npm/sqlite-cipher.png?downloads=true&downloadRank=true)](https://nodei.co/npm/sqlite-cipher/)
