@@ -17,7 +17,7 @@ var sq_2 = new sqlite()
 
 ## 引用方式
 ```shell
-npm install github:xisj/sqlite-cipher
+npm install github:xisj/sqlite-cipher.js
 ```
 
 
