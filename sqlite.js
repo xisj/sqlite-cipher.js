@@ -293,7 +293,7 @@ sqlite.prototype.change = function(file, oldPassword, newPassword, algorithm, ne
 
 };
 
-module.exports = sqlite();
+module.exports = sqlite;
 
 
 
